@@ -1,6 +1,6 @@
 
 class HelloJava {
-	public afficherCancan(){
+	public void afficherCancan(){
 
 	}
 }

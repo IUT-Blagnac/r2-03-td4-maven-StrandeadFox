@@ -112,6 +112,15 @@ image::success2.png["Ca run!", width=80%]
 Pour ce TP, il vous faudra simplement rendre le projet complet (`src`) ainsi que la dernière version du fichier `pom.xml` sur votre dépôt et la javadoc de votre code.
 
 [appendix]
-== Import dans Eclipse
+== Documentation de projet
 
-TO BE DONE...
+Instructions de compilation :
+	mvn clean
+	mvn compile
+	mvn package
+
+Instructions de documentation :x
+	mvn javadoc:javadoc
+
+Instructions de lancement :
+	java -jar target/tp_qualite-1.0.jar
